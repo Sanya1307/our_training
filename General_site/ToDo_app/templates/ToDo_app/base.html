@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'ToDo_app/css/style.css'%}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sophia">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

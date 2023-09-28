@@ -1,0 +1,14 @@
+{% extends 'ToDO_app/base.html'%}
+
+{% block title  %} Напоминание добавлено! {% endblock %}
+
+{% block content %}
+    <header>
+        <a href="{% url 'home' %}"> Вернуться на главную </a>
+        <h1>
+            Напоминание добавлено! <br>
+            Тема: {{topic}} <br>
+            Дата напоминания: {{date}}
+        </h1>
+    </header>
+{% endblock %}

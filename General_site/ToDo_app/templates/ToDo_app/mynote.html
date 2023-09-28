@@ -1,0 +1,17 @@
+{% extends 'ToDo_app/base.html'%}
+
+{% block title %} Мои напоминания {% endblock %}
+
+{% block content %}
+    <header>
+        <a href="{% url 'home' %}"> На главную </a>
+    </header>
+    {%for memorise in position %}
+    <div class="post">
+        <h2>
+            {{memorise.id}}. <b> Тема: </b> {{memorise.topic}} <br>
+            <b> Дата выполнения: </b> {{memorise.time}}
+        </h2>
+    </div>
+{% endfor %}
+{% endblock %}

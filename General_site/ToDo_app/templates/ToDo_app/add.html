@@ -1,0 +1,14 @@
+{% extends 'ToDO_app/base.html'%}
+
+{% block title  %} Добавить напоминание {% endblock %}
+
+{% block content %}
+    <form action="{% url 'added'%}" method="POST">
+        {% csrf_token %}
+        <label> Тема: </label>
+        <input name="topic">
+        <label> Время напоминания: </label>
+        <input name="date" type="date">
+        <button type="submit"> Сохранить </button>
+    </form>
+{% endblock %}

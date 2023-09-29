@@ -12,9 +12,12 @@
     </head>
    
     <body>
-        
+        <div class="images">
+            <img src="https://duomly.nyc3.digitaloceanspaces.com/articles/coding/alps-lake.jpg" />
+        </div>
             <!--Текст по серединке и цвет:-->
         <style>
+            
             body {
                 background-color: rgb(174, 174, 174);
                  }  

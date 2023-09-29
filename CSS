@@ -1,0 +1,24 @@
+body {
+background-color: #f5f5f5;
+color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+display: block;
+margin: 0;
+padding: 0.5em;
+}
+.images {
+  display: flex;
+  width: 100vw;
+  juftify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+}
+
+img:hover {
+  transform: scale(1.3);
+}

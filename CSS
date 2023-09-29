@@ -8,3 +8,17 @@ display: block;
 margin: 0;
 padding: 0.5em;
 }
+.images {
+  display: flex;
+  width: 100vw;
+  juftify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+}
+
+img:hover {
+  transform: scale(1.3);
+}

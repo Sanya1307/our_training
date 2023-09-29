@@ -21,8 +21,5 @@ from ToDo_app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Home, name='home'),
-    path('add/', Add, name='add'),
-    path('added/', Added, name='added'),
-    path('allnote/', All, name='all'),
+    path('', Home, name='home')
 ]

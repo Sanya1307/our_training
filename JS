@@ -2,18 +2,35 @@
 <!DOCTYPE html>
 <!--Оболочка документа, указываем язык содержимого-->
 <html lang="ru">
-    <title>Название сайта</title>
+    
     
     <head>
         
-        <title>Проект</title>
+        <title>НАЗВ КОМПАНИИ</title>
         <!--Кодировка страницы-->
         <meta http-equiv="Content type" content="text/html;charset=UTF-8" />
     </head>
    
     <body>
-            <!--Тут напишем большим текстом название компании:-->
-        <h1>Название сайта</h1>
+        
+            <!--Текст по серединке и цвет:-->
+        <style>
+            body {
+                background-color: rgb(174, 174, 174);
+                 }  
+
+
+
+            .centered {
+                text-align: center;
+              }
+        </style>
+        
+        <script>
+            document.write('<h1 class="centered">Название компаниии</h1>');
+        </script>
+            <!--Конец текста по серединке и цвета:-->
 
     </body>
+
 </html>

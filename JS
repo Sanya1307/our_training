@@ -12,7 +12,7 @@
     </head>
    
     <body>
-        
+        <button class="location-button" coords="40.7021476,-73.9726062">Кнопка должна быть на картинке</button>
             <!--Текст по серединке и цвет:-->
         <style>
             

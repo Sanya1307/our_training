@@ -12,9 +12,7 @@
     </head>
    
     <body>
-        <div class="images">
-            <img src="https://duomly.nyc3.digitaloceanspaces.com/articles/coding/alps-lake.jpg" />
-        </div>
+        
             <!--Текст по серединке и цвет:-->
         <style>
             
@@ -28,6 +26,9 @@
                 text-align: center;
               }
         </style>
+        <div class="images">
+            <img src="https://duomly.nyc3.digitaloceanspaces.com/articles/coding/alps-lake.jpg" />
+        </div>
         <a href="https://example.com" target="_blank">Контактные данные</a>
         <script>
             
